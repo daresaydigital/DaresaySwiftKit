@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6618E43E233A544800100D85 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 6618E43D233A544700100D85 /* Classes */; };
 		66F6C4EB233A337F00DEEF7D /* DaresaySwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F6C4E1233A337F00DEEF7D /* DaresaySwiftKit.framework */; };
 		66F6C4F0233A337F00DEEF7D /* DaresaySwiftKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C4EF233A337F00DEEF7D /* DaresaySwiftKitTests.swift */; };
 		66F6C4F2233A337F00DEEF7D /* DaresaySwiftKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F6C4E4233A337F00DEEF7D /* DaresaySwiftKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6618E43D233A544700100D85 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		66F6C4E1233A337F00DEEF7D /* DaresaySwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DaresaySwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6C4E4233A337F00DEEF7D /* DaresaySwiftKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DaresaySwiftKit.h; sourceTree = "<group>"; };
 		66F6C4E5233A337F00DEEF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		66F6C4E3233A337F00DEEF7D /* DaresaySwiftKit */ = {
 			isa = PBXGroup;
 			children = (
+				6618E43D233A544700100D85 /* Classes */,
 				66F6C4E4233A337F00DEEF7D /* DaresaySwiftKit.h */,
 				66F6C4E5233A337F00DEEF7D /* Info.plist */,
 				66F6C4FB233A348400DEEF7D /* Service.swift */,
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6618E43E233A544800100D85 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
