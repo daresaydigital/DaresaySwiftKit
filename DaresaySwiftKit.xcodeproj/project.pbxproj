@@ -10,6 +10,7 @@
 		66F6C4EB233A337F00DEEF7D /* DaresaySwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F6C4E1233A337F00DEEF7D /* DaresaySwiftKit.framework */; };
 		66F6C4F0233A337F00DEEF7D /* DaresaySwiftKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C4EF233A337F00DEEF7D /* DaresaySwiftKitTests.swift */; };
 		66F6C4F2233A337F00DEEF7D /* DaresaySwiftKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F6C4E4233A337F00DEEF7D /* DaresaySwiftKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F6C4FC233A348400DEEF7D /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F6C4FB233A348400DEEF7D /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		66F6C4EA233A337F00DEEF7D /* DaresaySwiftKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaresaySwiftKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F6C4EF233A337F00DEEF7D /* DaresaySwiftKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaresaySwiftKitTests.swift; sourceTree = "<group>"; };
 		66F6C4F1233A337F00DEEF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F6C4FB233A348400DEEF7D /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				66F6C4E4233A337F00DEEF7D /* DaresaySwiftKit.h */,
 				66F6C4E5233A337F00DEEF7D /* Info.plist */,
+				66F6C4FB233A348400DEEF7D /* Service.swift */,
 			);
 			path = DaresaySwiftKit;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					66F6C4E0233A337F00DEEF7D = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					66F6C4E9233A337F00DEEF7D = {
 						CreatedOnToolsVersion = 11.0;
@@ -195,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F6C4FC233A348400DEEF7D /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +345,7 @@
 		66F6C4F6233A337F00DEEF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GA9P9633N5;
@@ -356,6 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.daresay.DaresaySwiftKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +371,7 @@
 		66F6C4F7233A337F00DEEF7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GA9P9633N5;
@@ -388,6 +396,7 @@
 		66F6C4F9233A337F00DEEF7D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GA9P9633N5;
 				INFOPLIST_FILE = DaresaySwiftKitTests/Info.plist;
@@ -406,6 +415,7 @@
 		66F6C4FA233A337F00DEEF7D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GA9P9633N5;
 				INFOPLIST_FILE = DaresaySwiftKitTests/Info.plist;
